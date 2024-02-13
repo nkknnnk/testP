@@ -6,7 +6,7 @@ const client = new MongoClient(uri)
 
 const main = async () =>{
 await client.connect();
-const db = client.db("dbName: shop")
+const db = client.db("dbName: shop") 
 const collection = db.collection("products")
 }
 
